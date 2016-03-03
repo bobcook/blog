@@ -1,8 +1,7 @@
-source 'https://ruby.taobao.org/'
-
+source 'https://rubygems.org/'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0'
+gem 'rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -31,7 +30,7 @@ gem 'coderay'
 
 gem 'less-rails', '~> 2.7.0'
 
-gem "browserify-rails", "~> 0.7"
+gem 'browserify-rails'
 
 gem 'pg'
 
@@ -47,6 +46,8 @@ gem 'pg'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'pry-rails'
+  gem 'rspec-rails'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
@@ -55,11 +56,6 @@ group :development, :test do
   gem 'spring'
 end
 
-group :development do
-  gem "mysql2"
-end
-
 group :assets do
   gem 'therubyracer'
 end
-

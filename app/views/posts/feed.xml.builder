@@ -4,10 +4,10 @@ xml.rss :version => "2.0" do
     xml.title APP_CONFIG['blog_name']
     xml.description APP_CONFIG['blog_description']
     xml.link "http://#{APP_CONFIG['host']}"
-    xml.language "zh-CN"
+    xml.language "en-US"
 
     @posts.each do |post|
-      xml.item do 
+      xml.item do
         xml.title post.title
         xml.description markdown(post.content)
         xml.author post.author.name

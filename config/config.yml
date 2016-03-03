@@ -1,6 +1,6 @@
 defaults: &defaults
-  blog_name: "Livoras's Blog"
-  blog_description: "I seldom talk!"
+  blog_name: "Bob's Blog"
+  blog_description: "All the news that's fit to print."
 
 development:
   <<: *defaults

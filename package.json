@@ -1,12 +1,30 @@
 {
   "name": "livras",
-  "dependencies" : {
-    "browserify": "~> 6.3",
+  "dependencies": {
+    "browserify": "^13.0.0",
     "browserify-incremental": "^1.4.0",
     "coffeeify": "~> 0.6"
   },
   "license": "MIT",
   "engines": {
-    "node": ">= 0.10"
-  }
+    "node": ">= 0.12"
+  },
+  "description": "RoR Blog ========================================",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livoras/blog.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/livoras/blog/issues"
+  },
+  "homepage": "https://github.com/livoras/blog#readme"
 }
